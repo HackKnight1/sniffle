@@ -76,7 +76,6 @@ def main():
             sniff(prn=analyser_paquet, store=False, timeout=INTERVALLE_ANALYSE)
             verifier_ddos()
         except KeyboardInterrupt:
-            print("\nStopping the program. Thank you for using this tool created by https://linktr.ee/Brandon008 💻👍")
             break
 
 if __name__ == "__main__":
